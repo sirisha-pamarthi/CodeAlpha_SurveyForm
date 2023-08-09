@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet"  type="text/css" href="SF.css">
+</head>
+<body>
+    
+    <div class="container">
+        <form id="form1">
+             <h4>Step-1</h4>
+            <h2>Personal Information</h2>
+            <label>First Name:</label><br><input type="text" name="First Name" placeholder="Enter First Name" required /><br>
+            <label>Last Name:</label><br><input type="text" name="Last Name" placeholder="Enter Last Name" required /><br>
+            <label>Gender:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <select>
+                <option value="Female">Female</option>
+                <option value="Male">Male</option>
+                <option value="Others">Others</option>
+            </select>
+            <div class="button">
+                <button type="button" id="Next1">Next</button>
+            </div>
+        </form>
+        <form id="form2">
+            <h4>Step-2</h4>
+            <h2>Contact Information</h2>
+            <label>Mobile Number:</label><br><input type="number" name="Mobile Number" placeholder="Enter  your Number" required /><br>
+            <label>Email:</label><br><input type="email" name="email" placeholder="Enter your email" required /><br>
+            
+            <div class="button">
+                <button type="button" id="Prev1">Prev</button>
+                <button type="button" id="Next2">Next</button>
+            </div>
+        </form>
+        <form id="form3">
+            <h4>step-3</h4>
+            <h2>Permanent Address</h2>
+            <label>Pin code:</label><br><input type="number" name="Pincode" placeholder="Enter  Pincode" required /><br>
+            <label>State:</label><br><input type="text" name="State" placeholder="Enter State" required /><br>
+            <label>Country:</label><br><input type="text" name="Country" placeholder="Enter Country" required /><br>
+            
+            
+            <div class="button">
+                <button type="button" id="Prev2">Prev</button>
+                <button type="button">Submit</button>
+            </div>
+        </form>
+        
+       </div>
+       <script src="SF.js">
+        
+     </script>
+    
+
+</body>
+</html>
