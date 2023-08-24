@@ -24,3 +24,6 @@ var form1 = document.getElementById("form1");
         form2.style.left = "40px";
         form3.style.left = "450px";
         }
+        submit.onclick = function(){
+                alert("survey submitted successfully");
+        }
